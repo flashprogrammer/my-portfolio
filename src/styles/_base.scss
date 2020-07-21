@@ -36,3 +36,31 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.navbar {
+  background-color: #1e222e;
+  color: #ffffff;
+}
+
+body {
+  background-color: #16161d;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+p {
+  color: white !important;
+  size: 25px !important;
+}
+
+h1 {
+  color: white !important;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+}
