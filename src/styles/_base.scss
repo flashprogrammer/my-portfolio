@@ -1,5 +1,6 @@
 .container#content {
   margin-top: 60px;
+  min-height:calc(100vh - 70px);
 }
 body {
   background-color: $light-gray;
@@ -40,7 +41,7 @@ ul {
 .navbar {
   background-color: #1e222e;
   color: #ffffff;
-}
+} 
 
 body {
   background-color: #16161d;
@@ -63,4 +64,8 @@ h1 {
   color: white !important;
   font-weight: bold !important;
   text-decoration: none !important;
+}
+
+span {
+  color: white; 
 }

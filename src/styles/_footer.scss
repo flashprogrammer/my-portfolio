@@ -1,6 +1,6 @@
 .site-footer {
-  background-color: $white;
-  margin-top: 20px;
+  background-color: #1e222e;
+  margin-top: 100px;
   padding: 10px;
   text-align: center;
 
@@ -8,28 +8,23 @@
     text-align: center;
 
     ul.social-links-list {
-      li {
-        margin-right: 25px;
         display: inline-block;
+      a {
+        margin: 0px 20px;
+        font-size: 25px;
+        color: $white;
 
-        a {
-          color: $dark-gray;
-
-          &.instagram:hover {
-            color: #e95950;
-          }
-          &.facebook:hover {
-            color: rgb(66, 103, 178);
-          }
-          &.twitter:hover {
-            color: rgb(56, 161, 243);
-          }
-          &.google:hover {
-            color: rgb(221, 75, 57);
-          }
-          &.linkedin:hover {
-            color: rgb(0, 119, 181);
-          }
+        &.instagram:hover {
+          color: #e95950;
+        }
+        &.facebook:hover {
+          color: #4d9be2;
+        }
+        &.strava:hover {
+          color: #fc4c02;
+        }
+        &.google:hover {
+          color: #e44134;
         }
       }
     }
